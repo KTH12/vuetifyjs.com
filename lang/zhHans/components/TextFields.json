@@ -9,12 +9,12 @@
       "desc": "文本框组件有两个主题选项，亮色和暗色。"
     },
     "singleLine": {
-      "header": "单行亮色主题",
+      "header": "Single line",
       "desc": "单行文本框的标签不会浮动到焦点或数据之上。"
     },
     "icon": {
-      "header": "带图标",
-      "desc": "图标可以指定为预加或附加。"
+      "header": "Icons",
+      "desc": "You can add icons to the text field with `prepend-icon`, `append-icon` and `append-outer-icon` props. With `prepend-icon-cb` and `append-icon-cb` you can trigger a callback function when click the icon. If `clearable`, you can customize the clear icon with `clear-icon` and overwrite its behavior with `clear-icon-cb`."
     },
     "multiLine": {
       "header": "多行",

@@ -9,12 +9,12 @@
       "desc": "텍스트필드는 다크/라이트 두 테마 옵션과 함께 사용됩니다."
     },
     "singleLine": {
-      "header": "한 줄 라이트 테마 (Single line light theme)",
+      "header": "Single line",
       "desc": "Single line text-fields do not float their label on focus or with data."
     },
     "icon": {
-      "header": "아이콘과 함께 (With Icon)",
-      "desc": "아이콘은 앞(prepended)이나 뒤(appended)에 넣을 수 있습니다."
+      "header": "Icons",
+      "desc": "You can add icons to the text field with `prepend-icon`, `append-icon` and `append-outer-icon` props. With `prepend-icon-cb` and `append-icon-cb` you can trigger a callback function when click the icon. If `clearable`, you can customize the clear icon with `clear-icon` and overwrite its behavior with `clear-icon-cb`."
     },
     "multiLine": {
       "header": "여러 줄 (Multi-Line)",

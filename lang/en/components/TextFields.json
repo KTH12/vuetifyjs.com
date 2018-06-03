@@ -9,12 +9,12 @@
       "desc": "A simple text-field with placeholder and/or label."
     },
     "singleLine": {
-      "header": "Single line light theme",
+      "header": "Single line",
       "desc": "Single line text-fields do not float their label on focus or with data."
     },
     "icon": {
-      "header": "With Icon",
-      "desc": "Icons can be specified as prepended or appended."
+      "header": "Icons",
+      "desc": "You can add icons to the text field with `prepend-icon`, `append-icon` and `append-outer-icon` props. With `prepend-icon-cb` and `append-icon-cb` you can trigger a callback function when click the icon. If `clearable`, you can customize the clear icon with `clear-icon` and overwrite its behavior with `clear-icon-cb`."
     },
     "characterCounter": {
       "header": "Character counter",
