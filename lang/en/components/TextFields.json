@@ -32,10 +32,6 @@
       "header": "Full-width text field with character counter",
       "desc": "Full width text fields allow you to create boundless inputs. In this example, we use a `v-divider` to separate the fields."
     },
-    "requiredFields": {
-      "header": "Required fields",
-      "desc": "In this example two of the text-fields are required. We utilize the **required** prop in order to apply an asterisk to the label and rules to validate the fields."
-    },
     "hint": {
       "header": "Hint text",
       "desc": "The **hint** property on text-fields adds the provided string beneath the text-field. Using **persistent-hint** keeps the hint visible when the text-field is not focused."
