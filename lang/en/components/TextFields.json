@@ -18,7 +18,7 @@
     },
     "characterCounter": {
       "header": "Character counter",
-      "desc": "Use a counter to inform a user of the character limit. The counter does not perform any validation by itself. You will need to pair it with either the internal validation system, or a 3rd party library."
+      "desc": "Use a `counter` prop to inform a user of the character limit. The counter does not perform any validation by itself. You will need to pair it with either the internal validation system, or a 3rd party library. You can use it on regular, box or outline text fields."
     },
     "password": {
       "header": "Password input",
