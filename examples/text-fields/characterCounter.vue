@@ -14,6 +14,15 @@
 
         <v-flex xs12 sm6>
           <v-text-field
+            v-model="description"
+            :rules="rules"
+            counter="25"
+            label="Limit exceeded"
+          ></v-text-field>
+        </v-flex>
+
+        <v-flex xs12 sm6>
+          <v-text-field
             v-model="title"
             :rules="rules"
             counter="25"
@@ -42,6 +51,7 @@
     data () {
       return {
         title: 'Preliminary report',
+        description: 'California is a state in the western United States',
         rules: [v => v.length <= 25 || 'Max 25 characters']
       }
     }
