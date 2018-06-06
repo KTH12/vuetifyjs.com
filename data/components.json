@@ -590,7 +590,6 @@
       "password",
       "validation",
       "fullWidthWithCharacterCounter",
-      "requiredFields",
       "hint",
       "prefixesAndSuffixes",
       "customValidation",
