@@ -79,7 +79,7 @@
         template(v-for="(example, i) in examples.slice(1)")
           example(
             :header="example.header"
-            :new-in="example.new"
+            :new-in="example.newIn"
             :file="`${folder}/${example.file}`"
             :inverted="example.inverted"
             :has-inverted="!example.uninverted"
@@ -92,7 +92,7 @@
 </template>
 
 <script>
-  import api from '@/api/api'
+  import api from 'api-generator'
   // Utilities
   import { camel } from '@/util/helpers'
 
@@ -203,11 +203,15 @@
 
     watch: {
       currentApi () {
-        if (this.currentApi.hasOwnProperty(this.tab) &&
-          this.currentApi[this.tab].length > 0
+        const api = this.currentApi[this.tab]
+
+        if (
+          !api ||
+          (this.currentApi.hasOwnProperty(this.tab) &&
+          api.length > 0)
         ) return
 
-        for (let tab of ['props', 'slots']) {
+        for (let tab of ['props', 'slots', 'options']) {
           if (this.currentApi[tab].length > 0) {
             this.tab = tab
             break

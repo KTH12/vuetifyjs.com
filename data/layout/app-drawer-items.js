@@ -83,19 +83,21 @@ export default [
       { name: 'footer', title: 'Footer' },
       {
         title: 'Inputs & controls',
-        group: '(forms|selects|selection|text-fields|inputs)',
+        group: '(autocompletes|forms|inputs|overflow-btns|selects|selection|text-fields)',
         namespace: 'components',
         items: [
-          { name: 'forms', title: 'Forms' },
-          { name: 'inputs', title: 'Inputs' },
-          { name: 'selects', title: 'Selects' },
-          { name: 'selection-controls', title: 'Selection controls' },
-          { name: 'text-fields', title: 'Text fields' }
+          { name: 'autocompletes', title: 'Autocompletes', badge: 'new' },
+          { name: 'forms', title: 'Forms', badge: 'updated', color: 'red lighten-2' },
+          { name: 'inputs', title: 'Inputs', badge: 'new' },
+          { name: 'overflow-btns', title: 'Overflow Buttons', badge: 'new' },
+          { name: 'selects', title: 'Selects', badge: 'updated', color: 'red lighten-2' },
+          { name: 'selection-controls', title: 'Selection controls', badge: 'updated', color: 'red lighten-2' },
+          { name: 'text-fields', title: 'Text fields', badge: 'updated', color: 'red lighten-2' }
         ]
       },
       { name: 'icons', title: 'Icons' },
-      { name: 'lists', title: 'Lists' },
       { name: 'jumbotrons', title: 'Jumbotrons' },
+      { name: 'lists', title: 'Lists' },
       { name: 'menus', title: 'Menus' },
       { name: 'navigation-drawers', title: 'Navigation drawers' },
       { name: 'paginations', title: 'Paginations' },

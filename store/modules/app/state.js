@@ -1,3 +1,6 @@
+import components from '@/data/components'
+import newIn from '@/data/newIn'
+
 export default () => ({
   appDrawer: null,
   appFooter: true,
@@ -10,9 +13,11 @@ export default () => ({
     timeout: 6000
   },
   appToolbar: null,
+  components,
   currentVersion: null,
   isFullscreen: false,
   loadedLangs: [],
+  newIn,
   releases: [],
   stateless: false,
   tablesOfContents: {
