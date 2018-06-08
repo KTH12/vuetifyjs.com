@@ -8,6 +8,7 @@
             v-model="title"
             :rules="rules"
             counter="25"
+            hint="This field uses counter prop"
             label="Regular"
           ></v-text-field>
         </v-flex>
@@ -16,7 +17,9 @@
           <v-text-field
             v-model="description"
             :rules="rules"
-            counter="25"
+            counter
+            maxlength="25"
+            hint="This field uses maxlength attribute"
             label="Limit exceeded"
           ></v-text-field>
         </v-flex>
