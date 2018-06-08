@@ -479,6 +479,12 @@
     "description": "Simplify getting started with vuetify by using the new vue-cli 3 plugin.",
     "keywords": "vue, vue cli, webpack, setup"
   },
+  "guides/internationalization": {
+    "h1": "Internationalization",
+    "title": "Internationalization",
+    "description": "Vuetify supports language internationalization of its components.",
+    "keywords": "vue, i18n, language, internationalization"
+  },
   "theme-generator": {
     "h1": "Theme generator",
     "title": "Material design theme generator",

@@ -126,6 +126,10 @@
     "route": "guides/a-la-carte"
   },
   {
+    "page": "guides/Internationalization",
+    "route": "guides/internationalization"
+  },
+  {
     "page": "ThemeGenerator",
     "route": "theme-generator",
     "fullscreen": true
